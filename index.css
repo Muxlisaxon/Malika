@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@400;700&display=swap');
+
+
+
+body {
+    font-family: 'Heebo', sans-serif;
+}
+
+
+.list{
+    display: flex;
+    gap: 30;
+    padding-top: 30px;
+}
+
+
+.list_item{
+    font-weight: 500;
+    font-size: 20;
+    text-align: right;
+    color: #000000;
+}
+.text_person {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 44px;
+    color: #21243D;
+}
+.text-all {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 40px;
+    color: #21243D;
+}
+.button_person {
+    font-family: 'Heebo';
+    font-weight: 500;
+    font-size: 20px;
+    color: #FFFFFF;
+    padding: 5px 20px;
+    border: none;
+    background: #FF6464;
+    border-radius: 2px;
+    margin-top: 30px;
+}
+.person_image{
+    width: 50%;
+    border-radius: 50%;}
+
+header{
+    padding-top: 100px;
+}
+section{
+    background: #EDF7FA;
+    height: 270px;
+}
+.class{
+font-weight: 700;
+font-size: 26px;
+color: #21243D;
+
+}
+.nest{
+    display: flex;
+    gap: 50px;
+    margin-top: 20px;
+}
+.cart{
+margin-top: 40px;
+    background: #FFFFFF;
+border-radius: 4px;
+padding:24px 26px;
+}
+.nest3{
+    margin-top: 12px;
+}
+.six{
+    padding-top: 80px;
+}
